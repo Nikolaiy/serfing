@@ -1,0 +1,84 @@
+.video-main {
+  position: relative;
+  order: -1;
+  margin-bottom: 30px;
+  margin-right: -20px;
+  margin-left: -20px; }
+  .video-main img {
+    width: 100%; }
+  .video-main .play-icon {
+    position: absolute;
+    left: 24px;
+    bottom: 32px; }
+
+.video-content {
+  wigth: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px; }
+
+.video {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.video-title {
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacig: 0.29px;
+  margin-bottom: 45px;
+  text-align: center;
+  width: 100%; }
+
+.video-item {
+  position: relative;
+  margin-bottom: 36px;
+  overflow: hidden; }
+  .video-item .play-icon {
+    position: absolute;
+    left: -10px;
+    bottom: -15px; }
+
+.play-icon {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  background-color: #ffffff;
+  border-radius: 50px; }
+  .play-icon:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    content: "";
+    display: dlock;
+    border: 5px solid transparent;
+    border-left: 8px solid black; }
+
+@media screen and (min-width: 620px) {
+  .video {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .video-item__left {
+    margin-left: 20px; } }
+
+@media screen and (min-width: 1460px) {
+  .video-content {
+    padding-top: 110px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; }
+  .video-main {
+    order: 0;
+    margin-bottom: 0; }
+  .video-title {
+    text-align: left; }
+  .video {
+    width: 280px; }
+    .video-item__left {
+      margin-left: 0px; } }

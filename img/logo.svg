@@ -1,0 +1,7 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<path fill-rule="evenodd"  stroke="rgb(149, 149, 149)" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none" d="M0.500,0.500 L35.500,0.500 L35.500,35.500 L0.500,35.500 L0.500,0.500 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="2px" stroke-linecap="butt" stroke-linejoin="miter" fill="none" d="M25.232,1.495 L41.506,17.768 L24.767,34.506 L8.494,18.233 L25.232,1.495 Z"/>
+<text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="14px" x="20.5px" y="23.562px"><tspan font-size="14px" font-family="Avenir" fill="#000000">A</tspan></text>
+</svg>

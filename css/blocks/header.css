@@ -1,0 +1,39 @@
+.header-wraper {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto; }
+
+.header-title {
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacig: 0.57px;
+  text-align: center; }
+
+.header-description {
+  color: #999999;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.06px;
+  line-height: 1.8;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto; }
+  .header-description p {
+    margin-top: 0;
+    margin-bottom: 15px; }
+
+@media screen and (min-width: 768px) {
+  .header-title {
+    font-size: 48px; } }
+
+@media screen and (min-width: 1460px) {
+  .header-wraper {
+    width: 1440px;
+    padding-left: 0;
+    padding-right: 0; }
+  .header-title {
+    font-size: 70px; } }

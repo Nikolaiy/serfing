@@ -1,0 +1,36 @@
+footer {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; }
+  footer:last-child {
+    align-items: flex-end; }
+
+.footer-logo {
+  margin-left: 50px; }
+  .footer-logo h3 {
+    font-size: 16px;
+    font-weight: 500; }
+  .footer-logo p {
+    font-size: 10px;
+    color: #9f9f9f; }
+
+.autor {
+  margin-right: 50px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #9f9f9f; }
+  .autor span {
+    color: black; }
+
+@media screen and (min-width: 1460px) {
+  .footer-logo {
+    margin-left: 135px; }
+    .footer-logo h3 {
+      font-size: 24px;
+      font-weight: 500; }
+    .footer-logo p {
+      font-size: 14px;
+      color: #9f9f9f; }
+  .autor {
+    margin-right: 135px; } }
